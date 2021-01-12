@@ -1,0 +1,68 @@
+.background-area {
+    position: relative;
+
+    h1 {        
+        font-family: "chinese"; 
+        text-align: center;
+        position: absolute;
+        font-weight: 100;
+
+        font-size: 50px;
+        line-height: 52px;
+
+        transform: rotate(-6deg);
+        width: fit-content;
+
+        color: white;
+        top: 128px;
+        right: 0;
+        left: -276px;
+        margin: auto;
+        z-index: 1;
+
+        .word-1 {
+            font-size: 35px;
+        }
+
+        .word-2 {
+            font-size: 90px;
+        }
+        
+        .word-3 {
+            @extend .word-1;
+            margin-bottom: -46px;
+            display: block;
+            margin-top: -11px;
+        }
+
+        .word-4 {
+            @extend .word-2;
+        }
+    }
+
+    .background-collection {
+        text-align: center;
+        position: relative;
+    
+        .background-secondary {
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+        }
+    
+        .note-music {
+            @extend  .background-secondary;            
+        }
+    }
+
+    button {
+        position: absolute;
+        top: 27rem;
+        margin: auto;
+        left: 0;
+        right: 0;    
+    }
+}

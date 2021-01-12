@@ -1,0 +1,16 @@
+button {
+    font-size: 18px;
+}
+
+.btn {    
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: white;
+    background-color: $PrimaryColor;
+}
