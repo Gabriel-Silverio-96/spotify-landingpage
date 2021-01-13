@@ -8,6 +8,13 @@ body {
     font-family: "hr";
 }
 
+h1, h2, h3 {
+    font-family: "gilroy";
+}
+
+.title-large {
+    font-size: 72px;
+}
 
 /***************** CONTAINER *****************/            
 
@@ -29,7 +36,19 @@ $widthContainer: 320, 576, 768, 992, 1200;
     }
 }
 
-
 .image {
     max-width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    width: 50%;
+}
+
+.align-center {
+    align-items: center;
 }

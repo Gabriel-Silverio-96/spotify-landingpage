@@ -66,3 +66,18 @@
         right: 0;    
     }
 }
+
+.background {
+    padding-top: 25px;    
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.background-image {
+    background-color: $SecondaryColor;
+    color: white;  
+}
+
+.margin-bottom-negative {
+    margin-bottom: -4px;
+}

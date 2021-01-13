@@ -3,6 +3,9 @@ import React from 'react';
 //components
 import Header from '../../components/Header';
 import BannerMain from '../../components/BannerMain';
+import CtaMusic from '../../components/CtaMusic';
+
+
 
 function App() {
   return (
@@ -10,6 +13,8 @@ function App() {
       <Header/>
 
       <BannerMain />
+
+      <CtaMusic />
     </div>
   );
 }

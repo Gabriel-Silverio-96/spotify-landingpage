@@ -40,6 +40,18 @@
     left: 0;
     right: 0; }
 
+.background {
+  padding-top: 25px;
+  margin-top: 150px;
+  margin-bottom: 150px; }
+
+.background-image {
+  background-color: #DB1ED3;
+  color: white; }
+
+.margin-bottom-negative {
+  margin-bottom: -4px; }
+
 * {
   margin: 0; }
 
@@ -47,6 +59,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: "hr"; }
+
+h1, h2, h3 {
+  font-family: "gilroy"; }
+
+.title-large {
+  font-size: 72px; }
 
 /***************** CONTAINER *****************/
 .container {
@@ -79,6 +97,16 @@ body {
 .image {
   max-width: 100%; }
 
+.row {
+  display: flex;
+  flex-wrap: wrap; }
+
+.col {
+  width: 50%; }
+
+.align-center {
+  align-items: center; }
+
 @font-face {
   font-family: "chinese";
   src: url("../fonts/chinese-rocks.ttf"); }
@@ -86,6 +114,10 @@ body {
 @font-face {
   font-family: "hr";
   src: url("../fonts/hkgrotesk-regular.ttf"); }
+
+@font-face {
+  font-family: "gilroy";
+  src: url("../fonts/gilroy-semibold.ttf"); }
 
 header {
   padding: 30px 0;
@@ -102,6 +134,7 @@ button {
   outline: none;
   padding: 10px 30px;
   border-radius: 7px;
+  margin-top: 25px;
   cursor: pointer; }
 
 .btn-primary {
@@ -116,3 +149,57 @@ button {
     transform: rotate(180deg) scale(0.2); }
   to {
     transform: rotate(0deg) scale(1); } }
+
+.anime-background-secondary {
+  animation: zoomIn 2s; }
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.2);
+    opacity: 0; }
+  to {
+    transform: scale(1);
+    opacity: 1; } }
+
+.anime-note-music {
+  animation: pingPong 2s;
+  animation-delay: 1s;
+  opacity: 0;
+  animation-fill-mode: forwards; }
+
+@keyframes pingPong {
+  0% {
+    transform: scale(1.8);
+    opacity: 1; }
+  10% {
+    transform: scale(0.5);
+    opacity: 1; }
+  20% {
+    transform: scale(1);
+    opacity: 1; }
+  30% {
+    transform: scale(0.6);
+    opacity: 1; }
+  40% {
+    transform: scale(1);
+    opacity: 1; }
+  50% {
+    transform: scale(0.8);
+    opacity: 1; }
+  60% {
+    transform: scale(1);
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+.anime-content {
+  animation: fadeIn 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-delay: 2s; }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
