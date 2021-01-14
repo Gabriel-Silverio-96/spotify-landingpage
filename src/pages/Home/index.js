@@ -4,8 +4,7 @@ import React from 'react';
 import Header from '../../components/Header';
 import BannerMain from '../../components/BannerMain';
 import CtaMusic from '../../components/CtaMusic';
-
-
+import CtaArtist from '../../components/CtaArtist';
 
 function App() {
   return (
@@ -15,6 +14,8 @@ function App() {
       <BannerMain />
 
       <CtaMusic />
+
+      <CtaArtist />
     </div>
   );
 }

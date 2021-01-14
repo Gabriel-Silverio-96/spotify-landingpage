@@ -47,10 +47,46 @@
 
 .background-image {
   background-color: #DB1ED3;
-  color: white; }
+  color: white;
+  background-image: url("../image//ui//background/background-ball.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed; }
 
 .margin-bottom-negative {
   margin-bottom: -4px; }
+
+.ball-position-1 {
+  position: absolute;
+  left: 16rem;
+  top: 1rem; }
+
+.z-index-banner h1 {
+  z-index: 1; }
+
+.icon-area {
+  margin-top: 25px;
+  text-align: center; }
+  .icon-area svg {
+    margin-right: 30px; }
+    .icon-area svg:last-child {
+      margin-right: 0; }
+
+.blur-ball {
+  background: linear-gradient(39deg, rgba(0, 162, 255, 0.954577) 0%, rgba(243, 30, 208, 0.036038) 42%, #d630fe 100%);
+  width: 150px;
+  height: 150px;
+  transform: rotateX(39deg);
+  filter: blur(44px);
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  top: -25px; }
+
+.banner-artist {
+  margin-bottom: 150px; }
 
 * {
   margin: 0; }
@@ -106,6 +142,12 @@ h1, h2, h3 {
 
 .align-center {
   align-items: center; }
+
+.position-relative {
+  position: relative; }
+
+.text-center {
+  text-align: center; }
 
 @font-face {
   font-family: "chinese";
@@ -203,3 +245,15 @@ button {
     opacity: 0; }
   to {
     opacity: 1; } }
+
+.anime-opacity {
+  animation: animeOpacity 2s infinite ease-in-out;
+  animation-direction: alternate; }
+
+@keyframes animeOpacity {
+  from {
+    opacity: 0.5;
+    transform: scale(1); }
+  to {
+    opacity: 1;
+    transform: scale(1.3); } }

@@ -76,8 +76,55 @@
 .background-image {
     background-color: $SecondaryColor;
     color: white;  
+    background-image: url("../image//ui//background/background-ball.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
 }
 
 .margin-bottom-negative {
     margin-bottom: -4px;
+}
+
+.ball-position-1 {
+    position: absolute;
+    left: 16rem;
+    top: 1rem;
+}
+
+.z-index-banner {
+    h1 {
+        z-index: 1;
+    }
+}
+
+.icon-area {
+    margin-top: 25px;
+    text-align: center;
+    
+    svg {
+        margin-right: 30px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.blur-ball {
+    background: linear-gradient(39deg, rgba(0,162,255,0.9545773281140274) 0%, rgba(243,30,208,0.036038002271330805) 42%, rgba(214,48,254,1) 100%);
+    width: 150px;
+    height: 150px;
+    transform: rotateX(39deg);
+    filter: blur(44px);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    top: -25px;
+}
+
+.banner-artist {
+    margin-bottom: 150px;
 }

@@ -7,12 +7,11 @@ import ButtonPrimary from '../UI/Button';
 export default function CtaMusic(props) {
     return (
         <div className="background background-image">
-            <div className="container">
+            <div className="container">                
                 <div className="row align-center">
-                    <div className="col">
+                    <div className="col z-index-banner">
                         <h1 className="title-large">A Música<br/> muda tudo</h1>
                         <p>Depois, apenas R$ 16,90/mês.<br/> Cancele quando quiser.</p>
-
                         <ButtonPrimary title="Assinar" />
                     </div>
 
