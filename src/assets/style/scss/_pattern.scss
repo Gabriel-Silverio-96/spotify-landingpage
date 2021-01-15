@@ -18,10 +18,10 @@ h1, h2, h3 {
 
 /***************** CONTAINER *****************/            
 
-$widthContainer: 320, 576, 768, 992, 1200;
+$widthContainer: 576, 768, 992, 1200;
 
 .container {    
-    width: 100%;
+    max-width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;

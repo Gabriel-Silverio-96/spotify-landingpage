@@ -1,0 +1,62 @@
+//Column
+@media (max-width: 991px) {
+    .background-padding {
+        padding: 50px 0 50px 15px;
+    }
+
+    .col-none {
+        display: none;
+    }
+
+    .title-large-responsive {
+        font-size: 40px;
+    }
+
+    input {
+        width: auto;
+    }
+}
+
+//Banner
+@media (max-width: 690px) {
+    .background-area {
+        h1 {
+            transform: rotate(-6deg) scale(0.9);
+            top: 67px;
+            left: -127px;
+        }
+
+        button {
+            top: 22rem;
+        }
+    }   
+}
+
+@media (max-width: 576px) {
+    .background-image-3 {
+        padding-left: 25px;
+    }
+    
+    .flex-column {
+        flex-direction: column;
+    }
+    
+    .list-responsive {
+        flex-direction: column;
+        text-align: center;        
+        padding: 0;
+        
+        li {
+            margin: 10px 0;
+        }        
+    }
+}
+
+@media (max-width: 450px) {
+    .background-area {
+        h1 {
+            transform: rotate(-6deg) scale(0.6);            
+            top: 20px;
+        }
+    }   
+}

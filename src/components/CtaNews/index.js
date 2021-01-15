@@ -13,7 +13,7 @@ export default function CtaNews(params) {
             <div className="background background-image-3">
                 <div className="row align-center">
                     <div className="col">
-                        <h1 className="title-large">Novidades<br /> spotify</h1>
+                        <h1 className="title-large title-large-responsive">Novidades<br /> spotify</h1>
                         <p>Milhões de músicas e podcasts,<br /> fique por dentro de tudo</p>
 
                         <Input 

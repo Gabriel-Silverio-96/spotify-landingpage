@@ -1,7 +1,7 @@
 import React from 'react';
 
-//Assets
-import IphoneMockup from '../../assets/image/ui/background/iphone-mockup.png'
+//assets
+import IphoneMockup from '../../assets/image/ui/background/iphone-mockup.png';
 import { ButtonPrimary } from '../UI/Button';
 
 export default function CtaMusic(props) {
@@ -9,13 +9,13 @@ export default function CtaMusic(props) {
         <div className="background background-image">
             <div className="container">                
                 <div className="row align-center">
-                    <div className="col z-index-banner">
+                    <div className="col background-padding">
                         <h1 className="title-large">A Música<br/> muda tudo</h1>
                         <p>Depois, apenas R$ 16,90/mês.<br/> Cancele quando quiser.</p>
                         <ButtonPrimary title="Assinar" />
                     </div>
 
-                    <div className="col">
+                    <div className="col col-none">
                         <img width="450" className="image margin-bottom-negative" src={IphoneMockup} alt="Iphone mockup"/>
                     </div>
                 </div>
