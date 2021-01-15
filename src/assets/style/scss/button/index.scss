@@ -1,5 +1,6 @@
 button {
-    font-size: 18px;
+    font-size: 15px;
+    font-family: "hr";
 }
 
 .btn {    
@@ -14,4 +15,9 @@ button {
 .btn-primary {
     color: white;
     background-color: $PrimaryColor;
+}
+
+.btn-secondary {
+    color: white;
+    background-color: $FourthColor;
 }

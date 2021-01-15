@@ -1,5 +1,5 @@
 import React from 'react';
-
+//icons
 import { FiMonitor, FiSmartphone, FiDownloadCloud } from 'react-icons/fi'
 
 export default function CtaArtist() {

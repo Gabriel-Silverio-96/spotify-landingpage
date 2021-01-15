@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="60" viewBox="0 0 1000 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_25" data-name="Rectangle 25" width="1000" height="60" transform="translate(3582 4770)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="background-wave" transform="translate(-3582 -4770)" clip-path="url(#clip-path)">
+    <path id="background-wave-2" data-name="background-wave" d="M1000-522.378c-50,0-50,32-100.006,32s-50-32-100.005-32-50,32-100,32-50-32-100-32-50,32-100,32-50-32-100-32-50,32-100,32-50-32-99.995-32-50,32-100,32-50-32-100-32v106H1000Z" transform="translate(3582 5299.378)" fill="#ffc900"/>
+  </g>
+</svg>

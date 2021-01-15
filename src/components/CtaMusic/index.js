@@ -2,7 +2,7 @@ import React from 'react';
 
 //Assets
 import IphoneMockup from '../../assets/image/ui/background/iphone-mockup.png'
-import ButtonPrimary from '../UI/Button';
+import { ButtonPrimary } from '../UI/Button';
 
 export default function CtaMusic(props) {
     return (

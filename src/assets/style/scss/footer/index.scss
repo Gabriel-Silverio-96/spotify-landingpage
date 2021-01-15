@@ -1,0 +1,21 @@
+footer {
+    padding: 57px 0px;
+}
+
+.logo-footer {
+    filter: grayscale(1);
+}
+
+.link-footer {
+    display: flex;
+    list-style: none;
+
+    li {
+        margin-right: 50px;
+        font-weight: bold;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

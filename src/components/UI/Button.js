@@ -1,7 +1,6 @@
 import React from 'react';
 
-
-export default function ButtonPrimary(props) {
+function ButtonPrimary(props) {
     return (
         <button
             className={
@@ -11,3 +10,16 @@ export default function ButtonPrimary(props) {
         </button>
     )
 }
+
+function ButtonSecondary(props) {
+    return (
+        <button
+            className={
+                props.class === undefined ? "btn btn-secondary" : "btn btn-secondary " + props.class
+            }>
+            {props.title}
+        </button>
+    )
+}
+
+export {ButtonPrimary, ButtonSecondary};

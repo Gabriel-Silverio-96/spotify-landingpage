@@ -6,7 +6,7 @@ import BackgroundSecondary from '../../assets/image/ui/background/background-sec
 import NoteMusic from '../../assets/image/ui/background/note-music.png';
 
 //components
-import ButtonPrimary from '../UI/Button';
+import { ButtonPrimary } from '../UI/Button';
 
 export default function BannerMain(props) {
     return (

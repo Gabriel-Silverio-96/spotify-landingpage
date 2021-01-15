@@ -45,13 +45,28 @@
   margin-top: 150px;
   margin-bottom: 150px; }
 
-.background-image {
+.background-image, .background-image-2, .background-image-3 {
   background-color: #DB1ED3;
   color: white;
   background-image: url("../image//ui//background/background-ball.png");
   background-repeat: no-repeat;
   background-position: right;
   background-attachment: fixed; }
+
+.background-image-2 {
+  background-color: #FFCA00;
+  height: 800px;
+  background-image: url("../image//ui//background/background-woman-dance.png"); }
+  .background-image-2 .height-content {
+    height: 800px; }
+
+.background-image-3 {
+  background-color: #002e81;
+  background-image: url("../image//ui//background/background-ball.png");
+  border-radius: 50px;
+  padding-left: 75px;
+  padding-right: 25px;
+  height: 500px; }
 
 .margin-bottom-negative {
   margin-bottom: -4px; }
@@ -135,7 +150,8 @@ h1, h2, h3 {
 
 .row {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  height: 100%; }
 
 .col {
   width: 50%; }
@@ -148,6 +164,23 @@ h1, h2, h3 {
 
 .text-center {
   text-align: center; }
+
+input {
+  display: block;
+  padding: 15px 15px;
+  width: 300px;
+  border-radius: 15px;
+  border: 0;
+  outline: none;
+  font-family: "hr";
+  margin-top: 25px;
+  color: #002e81;
+  font-size: 14px; }
+  input::placeholder {
+    color: #002e81; }
+
+.justify-space-between {
+  justify-content: space-between; }
 
 @font-face {
   font-family: "chinese";
@@ -168,8 +201,24 @@ header {
 .logo {
   width: 100px; }
 
+footer {
+  padding: 57px 0px; }
+
+.logo-footer {
+  filter: grayscale(1); }
+
+.link-footer {
+  display: flex;
+  list-style: none; }
+  .link-footer li {
+    margin-right: 50px;
+    font-weight: bold; }
+    .link-footer li:last-child {
+      margin-right: 0; }
+
 button {
-  font-size: 18px; }
+  font-size: 15px;
+  font-family: "hr"; }
 
 .btn {
   border: none;
@@ -182,6 +231,10 @@ button {
 .btn-primary {
   color: white;
   background-color: #1DB954; }
+
+.btn-secondary {
+  color: white;
+  background-color: #FFCA00; }
 
 .anime-background-primary {
   animation: rotate 2s; }

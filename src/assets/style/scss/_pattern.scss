@@ -43,6 +43,7 @@ $widthContainer: 320, 576, 768, 992, 1200;
 .row {
     display: flex;
     flex-wrap: wrap;
+    height: 100%;
 }
 
 .col {
@@ -59,4 +60,25 @@ $widthContainer: 320, 576, 768, 992, 1200;
 
 .text-center {
     text-align: center;
+}
+
+input  {
+    display: block;    
+    padding: 15px 15px;
+    width: 300px;
+    border-radius: 15px;
+    border: 0;
+    outline: none;
+    font-family: "hr";
+    margin-top: 25px;
+    color: $FifthColor;
+    font-size: 14px;
+
+    &::placeholder {
+        color: $FifthColor;
+    }
+}
+
+.justify-space-between {
+    justify-content: space-between;
 }
