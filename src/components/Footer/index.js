@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="container">
                 <div className="row align-center justify-space-between flex-column">
                     <div className="col-footer">
-                        <img className="logo logo-footer" src={Logo} />
+                        <img className="logo logo-footer" src={Logo} alt="Logo Spotify"/>
                     </div>
                     <div className="col-footer">
                         <ul className="link-footer list-responsive">
