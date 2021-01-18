@@ -15,7 +15,7 @@ export default function Footer() {
                         <ul className="link-footer list-responsive">
                             <li>Legal</li>
                             <li>Privacidade</li>
-                            <li>Coockie</li>
+                            <li>Cookie</li>
                         </ul>
                     </div>
                 </div>
