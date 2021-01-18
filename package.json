@@ -1,8 +1,8 @@
 {
   "name": "spotify-landingpage",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://gabriel-silverio-96.github.io/spotify-landingpage",
+  "private": false,
+  "homepage": "https://gabriel-silverio-96.github.io/spotify-landingpage/",
   "repository": {
     "type": "git",
     "url": "https://github.com/Gabriel-Silverio-96/spotify-landingpage"
@@ -24,7 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",    
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
