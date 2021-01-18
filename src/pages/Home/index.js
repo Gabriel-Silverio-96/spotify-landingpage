@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 //components
 import Header from '../../components/Header';
@@ -12,6 +13,12 @@ import Footer from '../../components/Footer';
 function App() {
   return (
     <div className="App">
+      {/* Informações do head */}
+      <Helmet>
+        <title>Spotify | Landing page</title>
+        <link rel="canonical" href="https://gabriel-silverio-96.github.io/spotify-landingpage/" />
+      </Helmet>
+
       <Header/>
 
       <BannerMain />
