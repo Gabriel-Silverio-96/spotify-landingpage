@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/spotify-landingpage/static/css/main.47dfdf6b.chunk.css",
+    "main.js": "/spotify-landingpage/static/js/main.aa86be09.chunk.js",
+    "main.js.map": "/spotify-landingpage/static/js/main.aa86be09.chunk.js.map",
+    "runtime-main.js": "/spotify-landingpage/static/js/runtime-main.51603b70.js",
+    "runtime-main.js.map": "/spotify-landingpage/static/js/runtime-main.51603b70.js.map",
+    "static/js/2.72497736.chunk.js": "/spotify-landingpage/static/js/2.72497736.chunk.js",
+    "static/js/2.72497736.chunk.js.map": "/spotify-landingpage/static/js/2.72497736.chunk.js.map",
+    "index.html": "/spotify-landingpage/index.html",
+    "static/css/main.47dfdf6b.chunk.css.map": "/spotify-landingpage/static/css/main.47dfdf6b.chunk.css.map",
+    "static/js/2.72497736.chunk.js.LICENSE.txt": "/spotify-landingpage/static/js/2.72497736.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/spotify-landingpage/static/media/hkgrotesk-regular.89d381b5.ttf",
+    "static/media/background-primary.87fc956a.svg": "/spotify-landingpage/static/media/background-primary.87fc956a.svg",
+    "static/media/background-secondary.82f6bd67.svg": "/spotify-landingpage/static/media/background-secondary.82f6bd67.svg",
+    "static/media/iphone-mockup.bcb1f244.png": "/spotify-landingpage/static/media/iphone-mockup.bcb1f244.png",
+    "static/media/logo-spotify.4f8bc335.svg": "/spotify-landingpage/static/media/logo-spotify.4f8bc335.svg",
+    "static/media/microphone.f63aa322.png": "/spotify-landingpage/static/media/microphone.f63aa322.png",
+    "static/media/note-music.21cad957.png": "/spotify-landingpage/static/media/note-music.21cad957.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51603b70.js",
+    "static/js/2.72497736.chunk.js",
+    "static/css/main.47dfdf6b.chunk.css",
+    "static/js/main.aa86be09.chunk.js"
+  ]
+}
