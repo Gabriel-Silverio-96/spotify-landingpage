@@ -19,7 +19,7 @@
 
 ## 📝 Sobre 
 
-🌐 acesse: 
+🌐 acesse: https://gabriel-silverio-96.github.io/spotify-landingpage/
 
 Desenvolvimento de landing page, a fim de aprimorar os conhecimentos em Sass junto ao ecossistema do ReactJS.
 
