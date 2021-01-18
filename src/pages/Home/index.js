@@ -14,10 +14,10 @@ function App() {
   return (
     <div className="App">
       {/* Informações do head */}
-      {/* <Helmet>
+      <Helmet>
         <title>Spotify | Landing page</title>
         <link rel="canonical" href="https://gabriel-silverio-96.github.io/spotify-landingpage/" />
-      </Helmet> */}
+      </Helmet>
 
       <Header/>
 
