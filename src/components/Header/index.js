@@ -8,7 +8,7 @@ export default function Header() {
         <header>
             <div className="container">
                 <nav>
-                    <img className="logo" src={Logo} />
+                    <img className="logo" src={Logo} alt="Logo Spotify"/>
                 </nav>
             </div>
         </header>
