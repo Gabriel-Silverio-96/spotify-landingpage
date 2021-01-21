@@ -14,7 +14,7 @@ export default function CtaNews(params) {
                 <div className="row align-center">
                     <div className="col">
                         <h1 className="title-large title-large-responsive">Novidades<br /> spotify</h1>
-                        <p>Milhões de músicas e podcasts,<br /> fique por dentro de tudo</p>
+                        <p>Fique por dentro de todas<br/> novidades do universo da música</p>
 
                         <Input 
                             type="text" 

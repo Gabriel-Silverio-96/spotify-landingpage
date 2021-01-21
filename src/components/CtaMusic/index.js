@@ -11,7 +11,7 @@ export default function CtaMusic(props) {
                 <div className="row align-center">
                     <div className="col background-padding">
                         <h1 className="title-large">A Música<br/> muda tudo</h1>
-                        <p>Depois, apenas R$ 16,90/mês.<br/> Cancele quando quiser.</p>
+                        <p>Por apenas R$ 16,90/mês.<br/> Cancele quando quiser.</p>
                         <ButtonPrimary title="Assinar" />
                     </div>
 
